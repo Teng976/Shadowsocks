@@ -405,7 +405,7 @@ uninstall_shadowsocks(){
 install_shadowsocks(){
     disable_selinux
     pre_install
-    download_files
+    # download_files
     config_shadowsocks
     if check_sys packageManager yum; then
         firewall_set
