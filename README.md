@@ -16,3 +16,5 @@ chmod 777 shadowsocks.sh
 
 ## 执行脚本安装
 ./shadowsocks.sh
+
+mv shadowsocks /etc/init.d/shadowsocks
