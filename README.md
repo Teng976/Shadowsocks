@@ -18,4 +18,5 @@ chmod 777 shadowsocks.sh
 ./shadowsocks.sh
 
 chmod 777 shadowsocks
+
 mv shadowsocks /etc/init.d/shadowsocks
