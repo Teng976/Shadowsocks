@@ -11,6 +11,7 @@ wget --no-check-certificate -O shadowsocks.sh https://raw.githubusercontent.com/
 
 ## 添加至 /etc/init.d/
 chmod 777 shadowsocks
+
 mv shadowsocks /etc/init.d/shadowsocks
 
 ## 添加执行权限
